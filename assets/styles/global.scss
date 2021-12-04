@@ -1,0 +1,66 @@
+@import 'variables';
+
+@font-face {
+  font-family: "OpenSans";
+  src: url(../fonts/OpenSans-Regular.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url(../fonts/OpenSans-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url(../fonts/OpenSans-Bold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "PlayFair";
+  src: url(../fonts/PlayfairDisplay-Black.ttf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: "PlayFair";
+  src: url(../fonts/PlayfairDisplay-Bold.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "PlayFair";
+  src: url(../fonts/PlayfairDisplay-ExtraBold.ttf);
+  font-weight: 600;
+}
+
+html,
+body,
+button,
+input,
+textarea,
+select {
+  font-family: OpenSans !important;
+}
+
+body {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+  // background: $Oracle;
+}
+a {
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-tap-highlight-color: transparent;
+}
+button,
+img,
+div,
+span {
+  -webkit-tap-highlight-color: transparent;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+  max-width: 100%;
+}
